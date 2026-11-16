@@ -1,36 +1,45 @@
-<div align="center">
+<p align="center">
+  <a href="assets/banner.svg"><img src="assets/banner.svg" alt="Opcodex - Python bytecode inspector, patcher and decompiler"></a>
+</p>
 
-<img src="assets/banner.svg" alt="Opcodex - Python bytecode inspector, patcher and decompiler" width="100%">
+<p align="center">
+  <a href="https://github.com/Opium9Dev/Opcodex/actions/workflows/ci.yml"><img src="https://github.com/Opium9Dev/Opcodex/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="License"></a>
+  <a href="https://dotnet.microsoft.com/download/dotnet/8.0"><img src="https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"></a>
+  <a href="#supported-python-versions"><img src="https://img.shields.io/badge/CPython-3.8%20to%203.15-FFD43B?style=flat-square&logo=python&logoColor=white" alt="CPython"></a>
+  <a href="#getting-started"><img src="https://img.shields.io/badge/platform-Windows%20x64-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Platform"></a>
+  <a href="https://github.com/Opium9Dev/Opcodex/stargazers"><img src="https://img.shields.io/github/stars/Opium9Dev/Opcodex?style=flat-square&color=FFD43B" alt="Stars"></a>
+  <a href="https://github.com/Opium9Dev/Opcodex/issues"><img src="https://img.shields.io/github/issues/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="Issues"></a>
+  <a href="https://github.com/Opium9Dev/Opcodex/commits/main"><img src="https://img.shields.io/github/last-commit/Opium9Dev/Opcodex?style=flat-square&color=366994" alt="Last commit"></a>
+  <a href="https://github.com/Opium9Dev/Opcodex"><img src="https://img.shields.io/github/repo-size/Opium9Dev/Opcodex?style=flat-square&color=366994" alt="Repo size"></a>
+</p>
 
-<br>
+<p align="center">
+  <a href="https://github.com/Opium9Dev/Opcodex">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=1100&color=387EB8&center=true&vCenter=true&width=780&height=44&lines=Disassemble+any+.pyc+from+Python+3.8+to+3.15;Read+recovered+pseudo-source+per+code+object;Walk+control+flow+graphs+and+cross-references;Patch+bytecode+and+rebuild+a+valid+file;Spot+suspicious+behavior+with+static+flags" alt="Opcodex feature highlights">
+  </a>
+</p>
 
-[![CI](https://github.com/Opium9Dev/Opcodex/actions/workflows/ci.yml/badge.svg)](https://github.com/Opium9Dev/Opcodex/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/Opium9Dev/Opcodex?style=flat-square&color=387EB8)](LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/8.0)
-[![CPython](https://img.shields.io/badge/CPython-3.8%20to%203.15-FFD43B?style=flat-square&logo=python&logoColor=white)](#supported-python-versions)
-[![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078D6?style=flat-square&logo=windows&logoColor=white)](#getting-started)
-[![Stars](https://img.shields.io/github/stars/Opium9Dev/Opcodex?style=flat-square&color=FFD43B)](https://github.com/Opium9Dev/Opcodex/stargazers)
-[![Issues](https://img.shields.io/github/issues/Opium9Dev/Opcodex?style=flat-square&color=387EB8)](https://github.com/Opium9Dev/Opcodex/issues)
-[![Last commit](https://img.shields.io/github/last-commit/Opium9Dev/Opcodex?style=flat-square&color=366994)](https://github.com/Opium9Dev/Opcodex/commits/main)
-[![Repo size](https://img.shields.io/github/repo-size/Opium9Dev/Opcodex?style=flat-square&color=366994)](https://github.com/Opium9Dev/Opcodex)
-
-<a href="https://github.com/Opium9Dev/Opcodex">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=1100&color=387EB8&center=true&vCenter=true&width=780&height=44&lines=Disassemble+any+.pyc+from+Python+3.8+to+3.15;Read+recovered+pseudo-source+per+code+object;Walk+control+flow+graphs+and+cross-references;Patch+bytecode+and+rebuild+a+valid+file;Spot+suspicious+behavior+with+static+flags" alt="Opcodex feature highlights">
-</a>
-
-<br>
-
-[Overview](#overview) &nbsp;|&nbsp;
-[Features](#features) &nbsp;|&nbsp;
-[Getting started](#getting-started) &nbsp;|&nbsp;
-[Workflow](#workflow) &nbsp;|&nbsp;
-[Behavior flags](#behavior-flags) &nbsp;|&nbsp;
-[Architecture](#architecture) &nbsp;|&nbsp;
-[Contributing](#contributing)
-
-</div>
+<p align="center">
+  <a href="#preview">Preview</a>&nbsp;|&nbsp;
+  <a href="#overview">Overview</a>&nbsp;|&nbsp;
+  <a href="#features">Features</a>&nbsp;|&nbsp;
+  <a href="#getting-started">Getting started</a>&nbsp;|&nbsp;
+  <a href="#workflow">Workflow</a>&nbsp;|&nbsp;
+  <a href="#behavior-flags">Behavior flags</a>&nbsp;|&nbsp;
+  <a href="#architecture">Architecture</a>&nbsp;|&nbsp;
+  <a href="#contributing">Contributing</a>
+</p>
 
 ---
+
+## Preview
+
+<p align="center">
+  <img src="assets/preview.gif" alt="Opcodex in action: code object tree, disassembly, pseudo-source, patching and behavior flags" width="900">
+</p>
+
+<p align="center"><sub>Opcodex in a single window: code objects, disassembly, pseudo-source, constants, patch inspector and behavior flags.</sub></p>
 
 ## Overview
 
@@ -44,20 +53,16 @@ It is built for:
 - **Malware analysts** who want a fast triage view of a suspicious `.pyc` before deeper work.
 - **Tooling authors and students** who want to see how CPython opcodes, exception tables and line tables fit together across versions.
 
-<div align="center">
-
 | 3.8 to 3.15 | 76 detection rules | 9 correlation chains | 0 code executed |
-|:---:|:---:|:---:|:---:|
+| :---: | :---: | :---: | :---: |
 | one opcode table per CPython release | behavior flags with confidence scores | theft + exfiltration, loader + obfuscation, ... | analysis is purely static |
-
-</div>
 
 ## Features
 
 ### Inspection
 
 | Capability | Details |
-|---|---|
+| --- | --- |
 | **Code object tree** | Every nested code object (functions, classes, comprehensions, lambdas) in one navigable tree. |
 | **Disassembly** | Offsets, opcodes, operands with resolved names and constants, inline cache entries and jump targets. |
 | **Pseudo-source** | A best-effort Python reconstruction of the selected code object, with syntax highlighting. |
@@ -70,7 +75,7 @@ It is built for:
 ### Patching
 
 | Capability | Details |
-|---|---|
+| --- | --- |
 | **Instruction editing** | NOP an instruction, delete it, or invert a conditional jump. |
 | **Inline assembler** | Assemble a new instruction from text. Patches that fit are written in place; others (new constants or names, different instruction size or cache layout) are applied as structural edits. |
 | **Undo and redo** | Every edit is tracked in a patch log, with original and patched values side by side. |
@@ -80,7 +85,7 @@ It is built for:
 ### Triage
 
 | Capability | Details |
-|---|---|
+| --- | --- |
 | **Behavior flags** | Colored pills under the toolbar summarize what the file appears to do, with the evidence behind each one. |
 | **Verdict** | A 0 to 100 risk score with a plain-language level, from "No significant indicators" to "Likely malicious". |
 | **Decoded content** | Base64, hex, reversed text, zlib and gzip layers are unpacked up to three levels deep before matching. |
@@ -91,7 +96,7 @@ It is built for:
 Opcodex ships one generated opcode table per release, built from the CPython sources by `tools/gen_tables.py`.
 
 | CPython | Status |
-|:---:|---|
+| --- | --- |
 | 3.8, 3.9, 3.10 | Supported |
 | 3.11, 3.12, 3.13 | Supported, including inline caches and location tables |
 | 3.14 | Supported |
@@ -109,7 +114,7 @@ Opcodex is a WPF application, so it runs on Windows only.
 
 ### Build and run
 
-```powershell
+```
 git clone https://github.com/Opium9Dev/Opcodex.git
 cd Opcodex
 dotnet run --project Opcodex.csproj -c Release
@@ -119,10 +124,11 @@ dotnet run --project Opcodex.csproj -c Release
 
 `publish.cmd` produces a self-contained, single-file `win-x64` build in `publish\`. It needs no installed runtime.
 
-```powershell
+```
 .\publish.cmd
 ```
 
+> [!NOTE]
 > Unsigned, self-contained single-file executables are sometimes flagged by antivirus heuristics. Signing the binary is the most reliable fix. Opcodex also stores its detection signatures base64-encoded so that the scanner's own strings do not trigger static signature matches.
 
 ## Workflow
@@ -134,7 +140,7 @@ dotnet run --project Opcodex.csproj -c Release
 5. **Rebuild** the header and marshal stream, then **save** with `Ctrl+S`.
 
 | Shortcut | Action |
-|---|---|
+| --- | --- |
 | `Ctrl+O` / `Ctrl+S` | Open a `.pyc` / save the patched file |
 | `Ctrl+Z` / `Ctrl+Y` | Undo / redo a patch |
 | `Ctrl+N` | NOP the selected instruction |
@@ -154,7 +160,7 @@ Opcodex tags each file with behavior flags in the style of an online sandbox rep
 **Correlation chains.** After the rules run, nine chains combine related hits into higher-level findings, for example:
 
 | Chain | Combines |
-|---|---|
+| --- | --- |
 | Data theft with exfiltration channel | credential or wallet theft with a webhook, bot or file-sharing upload |
 | Obfuscated loader | a decode-and-execute loader with packing or obfuscation |
 | Downloader that executes what it fetches | a download with process execution, escalating with persistence or evasion |
@@ -165,11 +171,12 @@ Rule categories include execution and loading, obfuscation and encoding, persist
 
 Flags are computed in a background thread when a file is opened and recomputed after every patch or rebuild.
 
+> [!WARNING]
 > Static heuristics produce false positives and false negatives. Treat the result as triage and confirm it by reading the evidence. When handling real samples, work inside an isolated virtual machine.
 
 ## Architecture
 
-```text
+```
 Opcodex/
 |-- Pyc/                      Core library: no UI dependencies
 |   |-- PycFile.cs            Header parsing and version detection
@@ -186,6 +193,7 @@ Opcodex/
 |   |-- Analysis.cs           Control flow graph, cross-references, search
 |   `-- Flags.cs              Behavior flag engine
 |-- MainWindow*.cs / *.xaml   WPF interface
+|-- assets/                   Banner and preview GIF
 |-- tools/                    Python helpers (see below)
 |-- newlogo/                  Logo and icon assets
 `-- .github/workflows/        CI (Windows build on every push and pull request)
@@ -194,7 +202,7 @@ Opcodex/
 ### Developer tools
 
 | Script | Purpose |
-|---|---|
+| --- | --- |
 | `tools/gen_tables.py` | Regenerates the opcode tables from CPython sources. Run it with a 3.13 interpreter. |
 | `tools/roundtrip.py` | Compiles and compares the observable behavior of original and decompiled sources. |
 | `tools/verify_flags.py` | Evaluates the flag rule table against a `.pyc` without rebuilding the application. |
@@ -218,41 +226,28 @@ Issues and pull requests are welcome. For a code change:
 
 ## Repository activity
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/Opium9Dev/Opcodex"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Opium9Dev&repo=Opcodex&hide_border=true" alt="Opcodex repository card"></a>
+</p>
 
-<a href="https://github.com/Opium9Dev/Opcodex">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Opium9Dev&repo=Opcodex&theme=tokyonight&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Opium9Dev&repo=Opcodex&hide_border=true" alt="Opcodex repository card">
-  </picture>
-</a>
+<p align="center">
+  <img src="https://img.shields.io/github/commit-activity/m/Opium9Dev/Opcodex?style=flat-square&color=387EB8&label=commits%20per%20month" alt="Commit activity">
+  <img src="https://img.shields.io/github/contributors/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="Contributors">
+  <img src="https://img.shields.io/github/issues-pr/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="Pull requests">
+  <img src="https://img.shields.io/github/languages/top/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="Top language">
+  <img src="https://img.shields.io/github/languages/code-size/Opium9Dev/Opcodex?style=flat-square&color=387EB8" alt="Code size">
+</p>
 
-<br><br>
-
-![Commit activity](https://img.shields.io/github/commit-activity/m/Opium9Dev/Opcodex?style=flat-square&color=387EB8&label=commits%20per%20month)
-![Contributors](https://img.shields.io/github/contributors/Opium9Dev/Opcodex?style=flat-square&color=387EB8)
-![Pull requests](https://img.shields.io/github/issues-pr/Opium9Dev/Opcodex?style=flat-square&color=387EB8)
-![Top language](https://img.shields.io/github/languages/top/Opium9Dev/Opcodex?style=flat-square&color=387EB8)
-![Code size](https://img.shields.io/github/languages/code-size/Opium9Dev/Opcodex?style=flat-square&color=387EB8)
-
-<br>
-
-<a href="https://star-history.com/Opium9Dev/Opcodex&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Opium9Dev/Opcodex&type=Date&theme=dark">
-    <img src="https://api.star-history.com/svg?repos=Opium9Dev/Opcodex&type=Date" alt="Star history" width="640">
-  </picture>
-</a>
-
-</div>
+<p align="center">
+  <a href="https://star-history.com/Opium9Dev/Opcodex&Date"><img src="https://api.star-history.com/svg?repos=Opium9Dev/Opcodex&type=Date" alt="Star history" width="600"></a>
+</p>
 
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 Opcodex contributors.
 
-<div align="center">
-<br>
-<img src="newlogo/opcodex-icon-small.svg" alt="Opcodex" width="56">
-<br>
-<sub>Opcodex - read it, patch it, understand it.</sub>
-</div>
+<p align="center">
+  <a href="newlogo/opcodex-icon-small.svg"><img src="newlogo/opcodex-icon-small.svg" alt="Opcodex" width="48"></a>
+  <br>
+  <sub>Opcodex - read it, patch it, understand it.</sub>
+</p>
