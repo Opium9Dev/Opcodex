@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Opcodex - Python bytecode toolkit">
+  <defs>
+
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="63.8159" y1="56.6829" x2="118.4934" y2="1.8225" gradientTransform="matrix(1 0 0 -1 -53.2974 66.4321)"> <stop offset="0" style="stop-color:#387EB8"/> <stop offset="1" style="stop-color:#366994"/></linearGradient>
+    <clipPath id="yel"><path d="M55.397,109.923c25.959,0,26.282-10.271,26.282-12.156c0-3.148,0-12.594,0-12.594H54.897v-3.781 c0,0,28.032,0,37.375,0c8.009,0,17.938-4.954,17.938-26.25c0-23.322-10.538-27.281-15.656-27.281c-2.336,0-9.344,0-9.344,0 s0,10.216,0,13.125c0,5.491-2.631,15.656-15.406,15.656c-15.91,0-19.476,0-26.532,0c-3.892,0-14.906,1.896-14.906,14.406 c0,14.475,0,18.265,0,24.219C28.366,100.497,31.562,109.923,55.397,109.923z M70.148,101.454c-2.662,0-4.813-2.151-4.813-4.813 s2.15-4.813,4.813-4.813c2.661,0,4.813,2.151,4.813,4.813S72.809,101.454,70.148,101.454z"/></clipPath>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="0.55" stop-color="#111a2b"/><stop offset="1" stop-color="#0d2038"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/><stop offset="0.85" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect width="1280" height="360" fill="url(#fadeR)"/></mask>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#9CC4E8"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#387EB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <g mask="url(#fadeMask)" font-family="'Cascadia Code','Consolas','Courier New',monospace" font-size="15" fill="#6C8FB8" opacity="0.22">
+    <svg x="0" y="0" width="1280" height="360" viewBox="0 0 1280 360" overflow="hidden">
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 -624" dur="38s" repeatCount="indefinite"/>
+<text x="640" y="20">0000  LOAD_CONST</text>
+<text x="640" y="46">0002  BINARY_OP</text>
+<text x="640" y="72">0004  LOAD_ATTR</text>
+<text x="640" y="98">0006  BUILD_TUPLE</text>
+<text x="640" y="124">0008  POP_TOP</text>
+<text x="640" y="150">0010  MAKE_FUNCTION</text>
+<text x="640" y="176">0012  IMPORT_NAME</text>
+<text x="640" y="202">0014  STORE_NAME</text>
+<text x="640" y="228">0016  COMPARE_OP</text>
+<text x="640" y="254">0018  STORE_FAST</text>
+<text x="640" y="280">0020  STORE_ATTR</text>
+<text x="640" y="306">0022  RESUME</text>
+<text x="640" y="332">0024  FOR_ITER</text>
+<text x="640" y="358">0026  BUILD_LIST</text>
+<text x="640" y="384">0028  LOAD_NAME</text>
+<text x="640" y="410">0030  POP_JUMP_IF_FALSE</text>
+<text x="640" y="436">0032  LOAD_FAST</text>
+<text x="640" y="462">0034  RETURN_CONST</text>
+<text x="640" y="488">0036  LOAD_GLOBAL</text>
+<text x="640" y="514">0038  GET_ITER</text>
+<text x="640" y="540">0040  NOP</text>
+<text x="640" y="566">0042  CALL</text>
+<text x="640" y="592">0044  RETURN_VALUE</text>
+<text x="640" y="618">0046  JUMP_BACKWARD</text>
+<text x="640" y="644">0000  LOAD_CONST</text>
+<text x="640" y="670">0002  BINARY_OP</text>
+<text x="640" y="696">0004  LOAD_ATTR</text>
+<text x="640" y="722">0006  BUILD_TUPLE</text>
+<text x="640" y="748">0008  POP_TOP</text>
+<text x="640" y="774">0010  MAKE_FUNCTION</text>
+<text x="640" y="800">0012  IMPORT_NAME</text>
+<text x="640" y="826">0014  STORE_NAME</text>
+<text x="640" y="852">0016  COMPARE_OP</text>
+<text x="640" y="878">0018  STORE_FAST</text>
+<text x="640" y="904">0020  STORE_ATTR</text>
+<text x="640" y="930">0022  RESUME</text>
+<text x="640" y="956">0024  FOR_ITER</text>
+<text x="640" y="982">0026  BUILD_LIST</text>
+<text x="640" y="1008">0028  LOAD_NAME</text>
+<text x="640" y="1034">0030  POP_JUMP_IF_FALSE</text>
+<text x="640" y="1060">0032  LOAD_FAST</text>
+<text x="640" y="1086">0034  RETURN_CONST</text>
+<text x="640" y="1112">0036  LOAD_GLOBAL</text>
+<text x="640" y="1138">0038  GET_ITER</text>
+<text x="640" y="1164">0040  NOP</text>
+<text x="640" y="1190">0042  CALL</text>
+<text x="640" y="1216">0044  RETURN_VALUE</text>
+<text x="640" y="1242">0046  JUMP_BACKWARD</text></g>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 -624" dur="47s" repeatCount="indefinite"/>
+<text x="860" y="20">0018  CALL</text>
+<text x="860" y="46">0020  RETURN_VALUE</text>
+<text x="860" y="72">0022  JUMP_BACKWARD</text>
+<text x="860" y="98">0024  LOAD_CONST</text>
+<text x="860" y="124">0026  BINARY_OP</text>
+<text x="860" y="150">0028  LOAD_ATTR</text>
+<text x="860" y="176">0030  BUILD_TUPLE</text>
+<text x="860" y="202">0032  POP_TOP</text>
+<text x="860" y="228">0034  MAKE_FUNCTION</text>
+<text x="860" y="254">0036  IMPORT_NAME</text>
+<text x="860" y="280">0038  STORE_NAME</text>
+<text x="860" y="306">0040  COMPARE_OP</text>
+<text x="860" y="332">0042  STORE_FAST</text>
+<text x="860" y="358">0044  STORE_ATTR</text>
+<text x="860" y="384">0046  RESUME</text>
+<text x="860" y="410">0048  FOR_ITER</text>
+<text x="860" y="436">0050  BUILD_LIST</text>
+<text x="860" y="462">0052  LOAD_NAME</text>
+<text x="860" y="488">0054  POP_JUMP_IF_FALSE</text>
+<text x="860" y="514">0056  LOAD_FAST</text>
+<text x="860" y="540">0058  RETURN_CONST</text>
+<text x="860" y="566">0060  LOAD_GLOBAL</text>
+<text x="860" y="592">0062  GET_ITER</text>
+<text x="860" y="618">0064  NOP</text>
+<text x="860" y="644">0018  CALL</text>
+<text x="860" y="670">0020  RETURN_VALUE</text>
+<text x="860" y="696">0022  JUMP_BACKWARD</text>
+<text x="860" y="722">0024  LOAD_CONST</text>
+<text x="860" y="748">0026  BINARY_OP</text>
+<text x="860" y="774">0028  LOAD_ATTR</text>
+<text x="860" y="800">0030  BUILD_TUPLE</text>
+<text x="860" y="826">0032  POP_TOP</text>
+<text x="860" y="852">0034  MAKE_FUNCTION</text>
+<text x="860" y="878">0036  IMPORT_NAME</text>
+<text x="860" y="904">0038  STORE_NAME</text>
+<text x="860" y="930">0040  COMPARE_OP</text>
+<text x="860" y="956">0042  STORE_FAST</text>
+<text x="860" y="982">0044  STORE_ATTR</text>
+<text x="860" y="1008">0046  RESUME</text>
+<text x="860" y="1034">0048  FOR_ITER</text>
+<text x="860" y="1060">0050  BUILD_LIST</text>
+<text x="860" y="1086">0052  LOAD_NAME</text>
+<text x="860" y="1112">0054  POP_JUMP_IF_FALSE</text>
+<text x="860" y="1138">0056  LOAD_FAST</text>
+<text x="860" y="1164">0058  RETURN_CONST</text>
+<text x="860" y="1190">0060  LOAD_GLOBAL</text>
+<text x="860" y="1216">0062  GET_ITER</text>
+<text x="860" y="1242">0064  NOP</text></g>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="0 -624" dur="56s" repeatCount="indefinite"/>
+<text x="1080" y="20">0036  LOAD_GLOBAL</text>
+<text x="1080" y="46">0038  GET_ITER</text>
+<text x="1080" y="72">0040  NOP</text>
+<text x="1080" y="98">0042  CALL</text>
+<text x="1080" y="124">0044  RETURN_VALUE</text>
+<text x="1080" y="150">0046  JUMP_BACKWARD</text>
+<text x="1080" y="176">0048  LOAD_CONST</text>
+<text x="1080" y="202">0050  BINARY_OP</text>
+<text x="1080" y="228">0052  LOAD_ATTR</text>
+<text x="1080" y="254">0054  BUILD_TUPLE</text>
+<text x="1080" y="280">0056  POP_TOP</text>
+<text x="1080" y="306">0058  MAKE_FUNCTION</text>
+<text x="1080" y="332">0060  IMPORT_NAME</text>
+<text x="1080" y="358">0062  STORE_NAME</text>
+<text x="1080" y="384">0064  COMPARE_OP</text>
+<text x="1080" y="410">0066  STORE_FAST</text>
+<text x="1080" y="436">0068  STORE_ATTR</text>
+<text x="1080" y="462">0070  RESUME</text>
+<text x="1080" y="488">0072  FOR_ITER</text>
+<text x="1080" y="514">0074  BUILD_LIST</text>
+<text x="1080" y="540">0076  LOAD_NAME</text>
+<text x="1080" y="566">0078  POP_JUMP_IF_FALSE</text>
+<text x="1080" y="592">0080  LOAD_FAST</text>
+<text x="1080" y="618">0082  RETURN_CONST</text>
+<text x="1080" y="644">0036  LOAD_GLOBAL</text>
+<text x="1080" y="670">0038  GET_ITER</text>
+<text x="1080" y="696">0040  NOP</text>
+<text x="1080" y="722">0042  CALL</text>
+<text x="1080" y="748">0044  RETURN_VALUE</text>
+<text x="1080" y="774">0046  JUMP_BACKWARD</text>
+<text x="1080" y="800">0048  LOAD_CONST</text>
+<text x="1080" y="826">0050  BINARY_OP</text>
+<text x="1080" y="852">0052  LOAD_ATTR</text>
+<text x="1080" y="878">0054  BUILD_TUPLE</text>
+<text x="1080" y="904">0056  POP_TOP</text>
+<text x="1080" y="930">0058  MAKE_FUNCTION</text>
+<text x="1080" y="956">0060  IMPORT_NAME</text>
+<text x="1080" y="982">0062  STORE_NAME</text>
+<text x="1080" y="1008">0064  COMPARE_OP</text>
+<text x="1080" y="1034">0066  STORE_FAST</text>
+<text x="1080" y="1060">0068  STORE_ATTR</text>
+<text x="1080" y="1086">0070  RESUME</text>
+<text x="1080" y="1112">0072  FOR_ITER</text>
+<text x="1080" y="1138">0074  BUILD_LIST</text>
+<text x="1080" y="1164">0076  LOAD_NAME</text>
+<text x="1080" y="1190">0078  POP_JUMP_IF_FALSE</text>
+<text x="1080" y="1216">0080  LOAD_FAST</text>
+<text x="1080" y="1242">0082  RETURN_CONST</text></g>
+    </svg>
+  </g>
+  <g transform="translate(96 52) scale(0.5)">
+    <g transform="translate(36 36) scale(4) translate(-0.21 0.077)">
+    <path fill="url(#SVGID_1_)" d="M55.023-0.077c-25.971,0-26.25,10.081-26.25,12.156c0,3.148,0,12.594,0,12.594h26.75v3.781 c0,0-27.852,0-37.375,0c-7.949,0-17.938,4.833-17.938,26.25c0,19.673,7.792,27.281,15.656,27.281c2.335,0,9.344,0,9.344,0 s0-9.765,0-13.125c0-5.491,2.721-15.656,15.406-15.656c15.91,0,19.971,0,26.531,0c3.902,0,14.906-1.696,14.906-14.406 c0-13.452,0-17.89,0-24.219C82.054,11.426,81.515-0.077,55.023-0.077z M40.273,8.392c2.662,0,4.813,2.15,4.813,4.813 c0,2.661-2.151,4.813-4.813,4.813s-4.813-2.151-4.813-4.813C35.46,10.542,37.611,8.392,40.273,8.392z"/>
+    <path d="M55.397,109.923c25.959,0,26.282-10.271,26.282-12.156c0-3.148,0-12.594,0-12.594H54.897v-3.781 c0,0,28.032,0,37.375,0c8.009,0,17.938-4.954,17.938-26.25c0-23.322-10.538-27.281-15.656-27.281c-2.336,0-9.344,0-9.344,0 s0,10.216,0,13.125c0,5.491-2.631,15.656-15.406,15.656c-15.91,0-19.476,0-26.532,0c-3.892,0-14.906,1.896-14.906,14.406 c0,14.475,0,18.265,0,24.219C28.366,100.497,31.562,109.923,55.397,109.923z M70.148,101.454c-2.662,0-4.813-2.151-4.813-4.813 s2.15-4.813,4.813-4.813c2.661,0,4.813,2.151,4.813,4.813S72.809,101.454,70.148,101.454z" fill="#FFD43B" fill-opacity=".14"/>
+    <g clip-path="url(#yel)" font-family="'Cascadia Code','Consolas','Courier New',monospace" font-size="8" font-weight="700" fill="#FFD43B">
+      <text x="26" y="27.0" textLength="86">101000100001100010</text>
+      <text x="26" y="35.4" textLength="86">000100001100100010</text>
+      <text x="26" y="43.8" textLength="86">000111111100001111</text>
+      <text x="26" y="52.2" textLength="86">100101011001111100</text>
+      <text x="26" y="60.6" textLength="86">110011111011001001</text>
+      <text x="26" y="69.0" textLength="86">001110011101111100</text>
+      <text x="26" y="77.4" textLength="86">000000101100111001</text>
+      <text x="26" y="85.8" textLength="86">111101100001001000</text>
+      <text x="26" y="94.2" textLength="86">001000101111001111</text>
+      <text x="26" y="102.6" textLength="86">100011100010010110</text>
+      <text x="26" y="111.0" textLength="86">101000100110011101</text>
+    </g>
+    <path d="M55.397,109.923c25.959,0,26.282-10.271,26.282-12.156c0-3.148,0-12.594,0-12.594H54.897v-3.781 c0,0,28.032,0,37.375,0c8.009,0,17.938-4.954,17.938-26.25c0-23.322-10.538-27.281-15.656-27.281c-2.336,0-9.344,0-9.344,0 s0,10.216,0,13.125c0,5.491-2.631,15.656-15.406,15.656c-15.91,0-19.476,0-26.532,0c-3.892,0-14.906,1.896-14.906,14.406 c0,14.475,0,18.265,0,24.219C28.366,100.497,31.562,109.923,55.397,109.923z M70.148,101.454c-2.662,0-4.813-2.151-4.813-4.813 s2.15-4.813,4.813-4.813c2.661,0,4.813,2.151,4.813,4.813S72.809,101.454,70.148,101.454z" fill="none" stroke="#FFD43B" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+  </g>
+  <g font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif">
+    <text x="410" y="190" font-size="92" font-weight="700" letter-spacing="1" fill="url(#title)">Opcodex</text>
+    <rect x="414" y="212" width="132" height="5" rx="2.5" fill="url(#rule)"/>
+    <text x="412" y="256" font-size="27" fill="#C9D7E8">Python bytecode inspector, patcher and decompiler</text>
+    <text x="412" y="294" font-size="19" fill="#7E97B5" font-family="'Cascadia Code','Consolas','Courier New',monospace">.pyc  |  CPython 3.8 - 3.15  |  static analysis  |  Windows</text>
+  </g>
+</svg>

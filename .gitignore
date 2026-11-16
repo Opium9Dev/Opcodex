@@ -1,0 +1,24 @@
+# .NET build and IDE files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Build and publish outputs
+/dist/
+/publish/
+
+# Local-only notes, samples, and validation projects
+/docs/
+/tests/
+/data/
+/CHANGES.md
+
+# Operating system files
+.DS_Store
+Thumbs.db

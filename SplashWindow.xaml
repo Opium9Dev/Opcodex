@@ -1,0 +1,116 @@
+<Window x:Class="Opcodex.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Opcodex"
+        Width="560" Height="210"
+        WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False"
+        Background="{StaticResource Bg0}"
+        PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown">
+  <Window.Resources>
+    <Geometry x:Key="LogoShape">M55.397,109.923c25.959,0,26.282-10.271,26.282-12.156c0-3.148,0-12.594,0-12.594H54.897v-3.781c0,0,28.032,0,37.375,0c8.009,0,17.938-4.954,17.938-26.25c0-23.322-10.538-27.281-15.656-27.281c-2.336,0-9.344,0-9.344,0s0,10.216,0,13.125c0,5.491-2.631,15.656-15.406,15.656c-15.91,0-19.476,0-26.532,0c-3.892,0-14.906,1.896-14.906,14.406c0,14.475,0,18.265,0,24.219C28.366,100.497,31.562,109.923,55.397,109.923z M70.148,101.454c-2.662,0-4.813-2.151-4.813-4.813s2.15-4.813,4.813-4.813c2.661,0,4.813,2.151,4.813,4.813S72.809,101.454,70.148,101.454z</Geometry>
+    <Geometry x:Key="LogoBlueShape">M55.023-0.077c-25.971,0-26.25,10.081-26.25,12.156c0,3.148,0,12.594,0,12.594h26.75v3.781c0,0-27.852,0-37.375,0c-7.949,0-17.938,4.833-17.938,26.25c0,19.673,7.792,27.281,15.656,27.281c2.335,0,9.344,0,9.344,0s0-9.765,0-13.125c0-5.491,2.721-15.656,15.406-15.656c15.91,0,19.971,0,26.531,0c3.902,0,14.906-1.696,14.906-14.406c0-13.452,0-17.89,0-24.219C82.054,11.426,81.515-0.077,55.023-0.077z M40.273,8.392c2.662,0,4.813,2.15,4.813,4.813c0,2.661-2.151,4.813-4.813,4.813s-4.813-2.151-4.813-4.813C35.46,10.542,37.611,8.392,40.273,8.392z</Geometry>
+    <LinearGradientBrush x:Key="LogoBlueGradient"
+                         MappingMode="Absolute"
+                         StartPoint="10.5185,9.7492"
+                         EndPoint="65.196,64.6096">
+      <GradientStop Color="#387EB8" Offset="0"/>
+      <GradientStop Color="#366994" Offset="1"/>
+    </LinearGradientBrush>
+  </Window.Resources>
+  <Border Background="{StaticResource Bg0}"
+          BorderBrush="{StaticResource Accent}"
+          BorderThickness="1">
+    <Grid Margin="30">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Viewbox Width="128" Height="128"
+               Stretch="Uniform"
+               VerticalAlignment="Center">
+        <Canvas Width="128" Height="128">
+          <Grid Width="120" Height="120"
+                Canvas.Left="8.79" Canvas.Top="9.08">
+            <Path Data="{StaticResource LogoBlueShape}"
+                  Fill="{StaticResource LogoBlueGradient}"/>
+            <Path Data="{StaticResource LogoShape}"
+                  Fill="#FFD43B"
+                  Opacity="0.14"/>
+            <Canvas Clip="{StaticResource LogoShape}"
+                    IsHitTestVisible="False">
+              <TextBlock Canvas.Left="26" Canvas.Top="18.5"
+                         Text="101000100001100010"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="26.9"
+                         Text="000100001100100010"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="35.3"
+                         Text="000111111100001111"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="43.7"
+                         Text="100101011001111100"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="52.1"
+                         Text="110011111011001001"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="60.5"
+                         Text="001110011101111100"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="68.9"
+                         Text="000000101100111001"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="77.3"
+                         Text="111101100001001000"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="85.7"
+                         Text="001000101111001111"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="94.1"
+                         Text="100011100010010110"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+              <TextBlock Canvas.Left="26" Canvas.Top="102.5"
+                         Text="101000100110011101"
+                         FontFamily="Cascadia Code" FontSize="8" FontWeight="Bold"
+                         Foreground="#FFD43B"/>
+            </Canvas>
+            <Path Data="{StaticResource LogoShape}"
+                  Fill="Transparent"
+                  Stroke="#FFD43B"
+                  StrokeThickness="1.6"/>
+          </Grid>
+        </Canvas>
+      </Viewbox>
+      <StackPanel Grid.Column="1"
+                  VerticalAlignment="Center"
+                  Margin="30,0,0,0">
+        <TextBlock Text="Opcodex"
+                   Foreground="{StaticResource Fg}"
+                   FontFamily="Cascadia Code"
+                   FontSize="40"
+                   FontWeight="SemiBold"/>
+        <Border Width="80" Height="2"
+                Background="{StaticResource Accent}"
+                HorizontalAlignment="Left"
+                Margin="2,12,0,0"/>
+        <TextBlock Text="1.0"
+                   Foreground="{StaticResource Fg}"
+                   FontFamily="Cascadia Code"
+                   FontSize="14"
+                   Opacity="0.7"
+                   Margin="2,6,0,0"/>
+      </StackPanel>
+    </Grid>
+  </Border>
+</Window>
